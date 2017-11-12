@@ -1,6 +1,6 @@
 // Code your solution here:
-function driversWithRevenueOver (speeddemons, revenue) {
-  return speeddemons.filter(function (poodle) {
-    return poodle.revenue > revenue;
+function driversWithRevenueOver (drivers, revenue) {
+  return drivers.filter(function (wealthydrivers) {
+    return wealthydrivers.revenue > revenue;
   });
 }
