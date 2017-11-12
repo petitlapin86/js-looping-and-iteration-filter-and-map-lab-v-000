@@ -4,3 +4,9 @@ function driversWithRevenueOver (drivers, revenue) {
     return wealthydrivers.revenue > revenue;
   });
 }
+
+function driversWithRevenueOver (drivers, revenue) {
+  return drivers.filter(function (whatsMyName) {
+    return whatsMyName.revenue > revenue;
+  });
+}
